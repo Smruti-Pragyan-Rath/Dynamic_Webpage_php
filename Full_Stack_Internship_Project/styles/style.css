@@ -1,0 +1,397 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f3f4f7, #e8ebf0);
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+/* Dark Mode Styles */
+body.dark-mode {
+    background: #121212; /* Dark background */
+    color: #f1f1f1; /* Light text */
+}
+
+/* Dark Mode header */
+body.dark-mode header {
+    background: #1f1f1f; /* Dark header */
+    color: #f1f1f1;
+}
+
+/* Dark Mode nav links */
+body.dark-mode nav a {
+    color: #f1f1f1;
+}
+
+body.dark-mode nav a:hover {
+    background: #0073e6;
+    color: #fff;
+}
+/* General Contact Section Styles */
+#contact {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+#contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #0073e6;
+    outline: none;
+}
+
+#contact button {
+    padding: 0.8rem 1.5rem;
+    background: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact button:hover {
+    background: #005bb5;
+}
+
+/* Light Mode - Default styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f3f4f7, #e8ebf0);
+    color: #333;
+}
+
+#contact {
+    background: #fff;
+    color: #333;
+}
+
+#contact button {
+    background: #0073e6;
+    color: white;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background: #121212;
+    color: #f1f1f1;
+}
+.greeting {
+    font-size: 1.2em;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+body.dark-mode #contact {
+    background: #1f1f1f;
+    color: #f1f1f1;
+}
+
+body.dark-mode #contact h2 {
+    color: #f1f1f1;
+}
+
+body.dark-mode #contact label {
+    color: #f1f1f1;
+}
+
+body.dark-mode #contact input,
+body.dark-mode #contact textarea {
+    background: #333;
+    color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+body.dark-mode #contact button {
+    background: #005bb5;
+    color: white;
+}
+
+body.dark-mode #contact button:hover {
+    background: #003366;
+}
+
+
+/* Dark Mode Tabs */
+body.dark-mode .tab {
+    background: linear-gradient(135deg, #1a73e8, #005bb5); /* Darker blue */
+}
+
+body.dark-mode .tab.active {
+    background: linear-gradient(135deg, #003366, #005bb5); /* Active tab darker */
+}
+/* Dark Mode heading */
+body.dark-mode .centered-heading{
+    color: #1f1f1f;
+}
+
+
+/* Dark Mode Featured Article */
+body.dark-mode .featured-article {
+    background: #1f1f1f; /* Dark background */
+}
+
+/* Dark Mode Ads */
+body.dark-mode .ad {
+    background: linear-gradient(135deg, #ff9f00, #0073e6);
+}
+
+body.dark-mode .ad:hover {
+    background: linear-gradient(135deg, #0073e6, #ff9f00);
+}
+
+/* Dark Mode Scroll to Top */
+body.dark-mode #scroll-to-top {
+    background: linear-gradient(135deg, #005bb5, #003366);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background: #0073e6;
+    color: #fff;
+}
+
+#dark-mode-toggle {
+    background: #f3f3f3;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#dark-mode-toggle:hover {
+    transform: scale(1.1);
+}
+
+main {
+    padding: 2rem;
+    margin: 10px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabs section */
+.tabs {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.tab {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #0073e6, #005bb5);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.tab.active {
+    background: linear-gradient(135deg, #0094ff, #0073e6);
+}
+
+.tab:hover {
+    transform: scale(1.05);
+}
+.centered-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Centered text */
+.centered-text {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    font-family: 'Georgia', serif;
+}
+
+/* Featured article */
+/* Centering the Featured Article Section */
+.featured-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .centered-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .centered-image {
+    width: 80%;
+    max-width: 800px; /* Adjust based on desired maximum size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 1rem;
+  }
+  
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ads section */
+/* Ads Section - Align ads vertically */
+/* Ads Section - Align ads horizontally */
+/* Ads Section - Align ads horizontally with vibrant colors */
+.ads {
+    display: flex;
+    justify-content: space-between; /* Distribute the ads evenly */
+    gap: 2rem; /* Optional, space between the ads */
+    padding: 2rem;
+  }
+  
+  .ad {
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ff9f00, #0073e6); /* Vibrant orange and blue gradient */
+    color: white; /* White text for contrast */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for depth */
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+    width: 48%; /* Each ad takes up 48% of the width */
+    cursor: pointer;
+  }
+  
+  .ad h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .ad p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Hover effect for ads */
+  .ad:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #0073e6, #ff9f00);}
+  
+  
+
+/* Scroll-to-top button */
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0073e6, #005bb5);
+    color: #fff;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    display: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+#scroll-to-top:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #0094ff, #0073e6);
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .tab {
+        padding: 0.5rem;
+    }
+
+    #scroll-to-top {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
+/* Centered image */
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
